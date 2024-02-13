@@ -2,7 +2,7 @@
 #  Factory Method
 
   
-Vamos criar uma situação prática para aplicar o padrão Factory Method, focada no desenvolvimento de um aplicativo de gerenciamento de documentos. Imagine que você está construindo um sistema que precisa suportar diferentes tipos de documentos, como textos, planilhas e apresentações. Cada tipo de documento tem sua própria maneira de ser criado, editado e salvo. No entanto, o aplicativo deve ser capaz de tratar todos esses documentos de forma genérica em muitos pontos do sistema, como na interface do usuário, onde o usuário pode escolher criar um novo documento de qualquer tipo.
+Vamos criar uma situação prática para aplicar o padrão Factory Method, focada no desenvolvimento de um aplicativo de gerenciamento de documentos. Imagine que você está construindo um sistema que precisa suportar diferentes tipos de documentos, como textos e planilhas. Cada tipo de documento tem sua própria maneira de ser criado, editado e salvo. No entanto, o aplicativo deve ser capaz de tratar todos esses documentos de forma genérica em muitos pontos do sistema, como na interface do usuário, onde o usuário pode escolher criar um novo documento de qualquer tipo.
 
 ### Contexto
 
@@ -25,7 +25,7 @@ Você deve implementar o padrão Factory Method no seu sistema de gerenciamento 
 
 1.  **Definir a interface `Documento`** com os métodos comuns necessários.
     
-2.  **Implementar as classes concretas `Texto`, `Planilha`** que representam os diferentes tipos de documentos.
+2.  **Implementar as classes concretas `Pdf`, `Planilha`** que representam os diferentes tipos de documentos.
     
 3.  **Criar a interface `DocumentoFactory`** com um método `criarDocumento()`.
     
