@@ -12,7 +12,7 @@ O sistema deve permitir ao usuário criar diferentes tipos de documentos sem sab
 
 1.  **Produto Abstrato (`IDocumento`):** Uma interface que define a operação comum a todos os documentos concretos que serão criados. Por exemplo, pode incluir métodos como `abrir()`, `salvar()`, `editar()` e `fechar()`.
     
-2.  **Produtos Concretos (`Pdf`, `Planilha`,):** Classes que implementam a interface `IDocumento`, representando diferentes tipos de documentos que o aplicativo pode criar.
+2.  **Produtos Concretos (`Pdf`, `Planilha`):** Classes que implementam a interface `IDocumento`, representando diferentes tipos de documentos que o aplicativo pode criar.
     
 3.  **Criador Abstrato (`IDocumentoFactory`):** Uma interface que declara o método fábrica, por exemplo, `criarDocumento(): IDocumento`.
     
